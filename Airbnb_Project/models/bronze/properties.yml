@@ -1,0 +1,26 @@
+version: 2
+
+models:
+   
+
+    - name: bronze_bookings
+      columns:
+        - name: booking_id
+          data_tests:
+            - unique
+            - not_null
+
+
+    - name: bronze_hosts
+      columns:
+        - name: host_id
+          data_tests:
+            - not_null
+            - unique
+
+    - name: bronze_listings
+      columns:
+        - name: listing_id
+          data_tests:
+            - unique
+            - not_null
