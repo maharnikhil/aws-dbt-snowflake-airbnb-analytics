@@ -199,25 +199,73 @@ Git and GitHub were used for:
 
 ## Project Structure
 
-```text
-Airbnb_Project/
-
-├── models/
-│   ├── bronze/
-│   ├── silver/
-│   └── gold/
+```
+├── Airbnb_Project/
+│   │
+│   ├── analyses/
+│   │   ├── experimental.sql
+│   │   ├── if_else.sql
+│   │   └── loop.sql
+│   │
+│   ├── macros/
+│   │   ├── discount.sql
+│   │   ├── double_it.sql
+│   │   ├── generate_schema_name.sql
+│   │   ├── multiply.sql
+│   │   └── tag.sql
+│   │
+│   ├── models/
+│   │   │
+│   │   ├── bronze/
+│   │   │   ├── bronze_bookings.sql
+│   │   │   ├── bronze_hosts.sql
+│   │   │   ├── bronze_listings.sql
+│   │   │   └── properties.yml
+│   │   │
+│   │   ├── silver/
+│   │   │   ├── silver_bookings.sql
+│   │   │   ├── silver_hosts.sql
+│   │   │   └── silver_listings.sql
+│   │   │
+│   │   └── gold/
+│   │       ├── ephemeral/
+│   │       │   ├── ephemeral_bookings.sql
+│   │       │   ├── ephemeral_hosts.sql
+│   │       │   └── ephemeral_listings.sql
+│   │       │
+│   │       ├── fact_table.sql
+│   │       └── one_big_table.sql
+│   │
+│   ├── sources/
+│   │   └── sources.yml
+│   │
+│   ├── seeds/
+│   │   └── .gitkeep
+│   │
+│   ├── snapshots/
+│   │   ├── dim_bookings.yml
+│   │   ├── dim_hosts.yml
+│   │   └── dim_listings.yml
+│   │
+│   ├── tests/
+│   │   ├── test_bookings.sql
+│   │   ├── test_hosts.sql
+│   │   └── test_listings.sql
+│   │
+│   ├── dbt_project.yml
+│   ├── profiles.yml
+│   └── README.md
 │
-├── snapshots/
+├── Screenshots/
+│   ├── AWS.png
+│   ├── Snowflake-catalog.png
+│   └── Models.png
 │
-├── tests/
-│
-├── macros/
-│
-├── seeds/
-│
-├── sources/
-│
-└── dbt_project.yml
+├── .gitignore
+├── .python-version
+├── pyproject.toml
+├── main.py
+└── README.md
 ```
 
 ---
