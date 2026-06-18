@@ -243,15 +243,15 @@ Airbnb_Project/
 
 ---
 
-## Snowflake Catalog Structure
-
-![Snowflake Catalog](Screenshots/Snowflake-catalog.png)
-
----
-
 ## dbt Models
 
 ![dbt Models](Screenshots/Models.png)
+
+---
+
+## Snowflake Catalog Structure
+
+![Snowflake Catalog](Screenshots/Snowflake-catalog.png)
 
 ---
 
