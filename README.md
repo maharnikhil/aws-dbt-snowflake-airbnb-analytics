@@ -17,10 +17,8 @@ Source Data → AWS S3 → Snowflake → dbt Models (Bronze → Silver → Gold)
 - Snowflake
 - dbt (Data Build Tool)
 - SQL
-- Git & GitHub
-- Medallion Architecture
-- Data Quality Testing
-- Snapshots
+- Git
+- Google Antigravity
 
 ---
 
@@ -31,9 +29,7 @@ Organizations often receive raw operational data that contains:
 - Duplicate records
 - Missing values
 - Inconsistent formatting
-- Poor data quality
 - No historical tracking
-- Difficult-to-maintain SQL transformations
 
 These issues create unreliable reporting and inaccurate business insights.
 
@@ -48,12 +44,9 @@ The solution ingests Airbnb datasets into Snowflake through AWS S3 and transform
 The project implements:
 
 - Layered Medallion Architecture
-- Data Quality Validation
 - Snapshot-based Change Tracking
 - Reusable dbt Macros
 - Automated Testing
-- Version Control with Git
-- Modular SQL Transformations
 
 This creates trusted and analytics-ready datasets that can be consumed by BI tools and reporting systems.
 
@@ -89,7 +82,6 @@ Responsibilities:
 - Remove duplicates
 - Standardize formats
 - Data cleansing
-- Business rule implementation
 - Improved data quality
 
 Examples:
@@ -104,18 +96,11 @@ Examples:
 
 The Gold layer contains analytics-ready datasets optimized for reporting and business intelligence.
 
-Responsibilities:
 
-- Business metrics
+- One Big Table
 - Fact tables
 - Dimension tables
 - Aggregated reporting datasets
-- Analytical consumption
-
-Examples:
-
-- Fact Table
-- One Big Table
 - Analytical Reporting Models
 
 ---
@@ -158,8 +143,6 @@ Benefits:
 
 - Historical tracking
 - Slowly Changing Dimensions (SCD)
-- Auditing
-- Change monitoring
 
 Snapshot examples:
 
@@ -200,13 +183,6 @@ Used for:
 - Access control
 - Secure authentication
 - Resource authorization
-- Principle of least privilege
-
-### Snowflake Security
-
-- Role-based access control
-- Warehouse management
-- Schema-level permissions
 
 ---
 
@@ -216,7 +192,6 @@ Git and GitHub were used for:
 
 - Source control
 - Collaboration
-- Change tracking
 - Project documentation
 - Deployment management
 
@@ -249,7 +224,7 @@ Airbnb_Project/
 
 ## Key Features
 
-- End-to-End Analytics Engineering Workflow
+- End-to-End Analytics Workflow
 - AWS S3 Data Lake Storage
 - Snowflake Cloud Data Warehouse
 - dbt Transformation Framework
@@ -257,23 +232,6 @@ Airbnb_Project/
 - Automated Data Testing
 - Snapshot Management
 - Reusable Macros
-- Data Quality Enforcement
-- Version Controlled Development
-
----
-
-## Potential Business Use Cases
-
-This architecture can support:
-
-- Revenue Analytics
-- Property Performance Analysis
-- Host Performance Tracking
-- Booking Trend Analysis
-- Occupancy Reporting
-- Customer Behavior Analysis
-- Business Intelligence Dashboards
-- Executive Reporting
 
 ---
 
@@ -301,7 +259,7 @@ This architecture can support:
 
 Through this project, I gained hands-on experience with:
 
-- Analytics Engineering
+- Analytics
 - Data Modeling
 - Medallion Architecture
 - Snowflake Data Warehousing
@@ -311,7 +269,7 @@ Through this project, I gained hands-on experience with:
 - Data Quality Testing
 - Snapshot Management
 - Git & GitHub Workflow
-- Modular SQL Development
+- Modular SQL
 
 ---
 
