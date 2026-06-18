@@ -277,4 +277,14 @@ Through this project, I gained hands-on experience with:
 
 **Nikhil Singh Mahar**
 
-Analytics Engineering | Data Engineering | dbt | Snowflake | AWS | SQL
+GitHub: `https://github.com/maharnikhil`
+
+LinkedIn: https://www.linkedin.com/in/nikhilsinghmahar/
+
+Mail: nikhilsinghmahar1234@gmail.com
+
+---
+
+## Project Status
+
+-- Completed --
