@@ -18,7 +18,7 @@ Source Data → AWS S3 → Snowflake → dbt Models (Bronze → Silver → Gold)
 - dbt (Data Build Tool)
 - SQL
 - Git
-- Google Antigravity
+- Google Antigravity IDE
 
 ---
 
@@ -64,6 +64,7 @@ Responsibilities:
 - Initial ingestion
 - Minimal transformations
 - Maintain source fidelity
+- Incremental loading
 
 Examples:
 
