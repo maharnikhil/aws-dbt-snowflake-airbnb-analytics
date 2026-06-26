@@ -278,6 +278,7 @@ Git and GitHub were used for:
 - Snowflake Cloud Data Warehouse
 - dbt Transformation Framework
 - Medallion Architecture
+- Incremental loading
 - Automated Data Testing
 - Snapshot Management
 - Reusable Macros
